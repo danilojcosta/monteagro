@@ -1,0 +1,44 @@
+*:root{
+    font-family: monteagro, sans-serif;
+}
+
+.main header {
+    padding-top: 100px;
+}
+
+main {
+    border: 10px;
+}
+
+h2, h3 {
+    padding: 50px;
+    font-size: 20px;
+    font-family: 'Peddana', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article img.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    
+}
+
+footer img {
+    padding: 20px;
+    display: flexbox;
+    max-width: 45px;
+    height: 40px;
+}
+
