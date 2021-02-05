@@ -21,11 +21,11 @@ h2, h3 {
 }
 
 article img.logo {
-    width: 150px;
+    width: 100px;
     height: auto;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
     
 }
 

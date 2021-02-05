@@ -3,25 +3,22 @@
 }
 
 img.logo {
-    width: 100px;
+    width: 65px;
     height: auto;
-    margin: auto;
-    display: flexbox;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
 }
 
-h1 {
-    font-size: 40px;
-    display: flexbox;
-}
-
-nav {
-    margin-top: 0px;
-    font-size: 40px;
+header {
+    font-size: 35px;
     text-align: right;
-    display: flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: left;
 }
 
-nav a {
+header a {
     padding: 15px;
     text-decoration-line: none;
     -webkit-text-decoration-line: none;
@@ -50,3 +47,7 @@ footer img {
     height: 40px;
 }
 
+h1 {
+    font-size: 40px;
+    display: flexbox;
+}
