@@ -2,27 +2,26 @@
     font-family: monteagro, sans-serif;
 }
 
-img.logo {
-    width: 65px;
-    height: auto;
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+h1 {
+    font-size: 55px;
     display: flex;
-    align-items: baseline;
-    justify-content: center;
+    color: aliceblue;
 }
 
 header {
     font-size: 35px;
-    text-align: right;
+    margin: auto;
+    padding: 20px;
     display: flex;
-    align-items: center;
-    justify-content: left;
-}
-
-header a {
-    padding: 15px;
-    text-decoration-line: none;
-    -webkit-text-decoration-line: none;
-    color: black;
+    justify-content: center;
+    background-image: url(/assets/BannerBackground3.jpg);
+    image-orientation: inherit;
 }
 
 h2, h3 {
@@ -35,19 +34,23 @@ h2, h3 {
     margin-right: auto;
 }
 
+article img.logo {
+    width: 70px;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 footer {
     text-align: center;
     padding: 50px;
 }
 
 footer img {
-    padding: 20px;
-    display: flexbox;
+    padding: 10px;
+    display: flex;
     max-width: 45px;
     height: 40px;
-}
-
-h1 {
-    font-size: 40px;
-    display: flexbox;
 }
