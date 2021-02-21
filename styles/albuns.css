@@ -10,27 +10,20 @@ body {
 
 h1 {
     font-size: 55px;
+    display: flex;
     color: aliceblue;
-    padding-bottom: 100px;
 }
 
 header {
-    display: grid;
-    justify-content: center;
     font-size: 35px;
-    padding-top: 100px;
     margin: auto;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
     background-image: url(/assets/BannerBackground.jpg);
 }
 
-header img {
-    width: 150px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-main h2, h3 {
+h2, h3 {
     padding: 50px;
     font-size: 20px;
     font-family: 'Peddana', serif;
@@ -40,21 +33,23 @@ main h2, h3 {
     margin-right: auto;
 }
 
-footer img.logo {
+article img.logo {
     width: 70px;
-    display: flexbox;
+    display: block;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
 }
 
-footer img.copyright{
-    width: 200px;
-    margin: auto;
-    padding: 20px;
-}
 
 footer {
     text-align: center;
+    padding: 50px;
 }
 
+footer img {
+    padding: 10px;
+    display: flex;
+    max-width: 45px;
+    height: 40px;
+}

@@ -2,7 +2,7 @@
     font-family: monteagro, sans-serif;
 }
 
-.main header {
+main{
     padding-top: 100px;
 }
 
@@ -20,7 +20,7 @@ h2, h3 {
     margin-right: auto;
 }
 
-article img.logo {
+main img.logo {
     padding-top: 50px;
     width: 100px;
     height: auto;
