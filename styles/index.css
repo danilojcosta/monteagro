@@ -2,15 +2,35 @@
     font-family: monteagro, sans-serif;
 }
 
-main{
+body {
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+h1 {
+    font-size: 55px;
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+
+header {
+    display: grid;
+    justify-content: center;
+    font-size: 35px;
     padding-top: 100px;
+    margin: auto;
+    background-image: url(/assets/BannerBackground.jpg);
 }
 
-main {
-    border: 10px;
+header img {
+    width: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-h2, h3 {
+main h2, h3 {
     padding: 50px;
     font-size: 20px;
     font-family: 'Peddana', serif;
@@ -20,25 +40,33 @@ h2, h3 {
     margin-right: auto;
 }
 
-main img.logo {
-    padding-top: 50px;
-    width: 100px;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 footer {
     text-align: center;
     padding: 50px;
-    
+    display: grid;
 }
 
-footer img {
+footer img.logo {
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+footer img.copyright{
+    width: 200px;
+    margin: auto;
     padding: 20px;
-    display: flexbox;
-    max-width: 45px;
-    height: 40px;
+}
+
+footer a, img {
+    width: 50px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
