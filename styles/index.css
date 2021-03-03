@@ -6,6 +6,7 @@ body {
     margin: 0px;
     padding: 0px;
     display: block;
+    background-color: rgb(255, 252, 246);
 }
 
 h1 {
@@ -30,6 +31,13 @@ header img {
     margin-right: auto;
 }
 
+aside img {
+    width: 300px;
+    margin-top: auto;
+    margin-right: 10px;
+    display: grid;
+}
+
 main h2, h3 {
     padding: 50px;
     font-size: 20px;
@@ -43,30 +51,22 @@ main h2, h3 {
 footer {
     text-align: center;
     padding: 50px;
-    display: grid;
 }
 
-footer img.logo {
-    width: 70px;
-    display: flex;
+footer a, img {
+    width: 45px;
+    height: auto;
     justify-content: center;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
+    padding: 5px;
 }
 
 footer img.copyright{
     width: 200px;
-    margin: auto;
     padding: 20px;
+    display: grid;
 }
 
-footer a, img {
-    width: 50px;
-    height: auto;
-    display: grid;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
+
 
