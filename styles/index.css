@@ -12,7 +12,7 @@ body {
 h1 {
     font-size: 55px;
     color: aliceblue;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 header {
@@ -33,9 +33,11 @@ header img {
 
 aside img {
     width: 300px;
-    margin-top: auto;
+    margin-top: 10px;
+    margin-left: auto;
     margin-right: 10px;
-    display: grid;
+    display: flex;
+    justify-content: center;
 }
 
 main h2, h3 {
@@ -49,23 +51,24 @@ main h2, h3 {
 }
 
 footer {
+    padding: 20px;
     text-align: center;
-    padding: 50px;
+    justify-content: center;
+    display: block;
 }
 
-footer a, img {
-    width: 45px;
+footer a img {
+    width: 30px;
+    text-align: center;
     height: auto;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     padding: 5px;
 }
 
 footer img.copyright{
-    width: 200px;
-    padding: 20px;
-    display: grid;
+    width: 180px;
 }
 
 
