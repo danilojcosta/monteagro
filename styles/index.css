@@ -31,16 +31,21 @@ header img {
     margin-right: auto;
 }
 
-aside img {
-    width: 300px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: 10px;
-    display: flex;
-    justify-content: center;
+.nav img{
+    width: 30px;
+    height: auto;
 }
 
-main h2, h3 {
+.aside {
+    max-width: 300px;
+}
+
+.aside img {
+    width: 300px;
+    margin-top: 10px;
+}
+
+article h2 h3 {
     padding: 50px;
     font-size: 20px;
     font-family: 'Peddana', serif;
