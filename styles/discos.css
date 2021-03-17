@@ -9,11 +9,6 @@ body {
     background-image: url(/assets/BannerBackground.jpg);
 }
 
-h1 {
-    font-size: 60px;
-    color: aliceblue;
-}
-
 header {
     display: grid;
     justify-content: center;
@@ -39,22 +34,23 @@ header img {
     padding: 50px;
 }
 
-main h2, h3 {
-    padding: 50px;
-    font-size: 20px;
-    font-family: 'Peddana', serif;
-    font-family: 'Poppins', sans-serif;
+.albuns a img {
+    width: 30px;
+    display: inline;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+footer {
+    padding: 20px;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    display: block;
 }
 
 footer img.copyright{
     width: 200px;
     padding-top: 50px;
 }
-
-footer {
-    text-align: center;;
-}
-
