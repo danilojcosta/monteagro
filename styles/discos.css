@@ -9,6 +9,10 @@ body {
     background-image: url(/assets/BannerBackground.jpg);
 }
 
+h1 {
+    font-family: 'Peddana', serif;
+}
+
 header {
     display: grid;
     justify-content: center;
@@ -36,9 +40,7 @@ header img {
 
 .albuns a img {
     width: 30px;
-    display: inline;
-    justify-content: center;
-    
+    display: flex;
     margin-bottom: 20px;
     padding: 5px;
 }
