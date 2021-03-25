@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     display: block;
     background-color: rgb(255, 252, 246);
@@ -11,7 +11,7 @@ body {
 
 h1 {
     font-size: 55px;
-    color: aliceblue;
+    color: rgb(255, 252, 246);
     padding-bottom: 50px;
 }
 
@@ -31,9 +31,24 @@ header img {
     margin-right: auto;
 }
 
-.nav img{
-    width: 30px;
+.nav a {
+    font-size: 20px;
     height: auto;
+    text-align: right;
+    justify-content: right;
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main a img {
+    width: 35px;
+    height: auto;
+    display: grid;
+    text-align: center;
+    margin-right: auto;
+    padding: 5px;
 }
 
 .aside {
@@ -60,16 +75,6 @@ footer {
     text-align: center;
     justify-content: center;
     display: block;
-}
-
-footer a img {
-    width: 30px;
-    text-align: center;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    padding: 5px;
 }
 
 footer img.copyright{
