@@ -31,15 +31,17 @@ header img {
     margin-right: auto;
 }
 
+.albuns li {
+    list-style: none;
+}
+
 .albuns img {
     width: 300px;
     font-size: 30px;
-    list-style: none;
     margin: 0;
     padding: 0;
     display: -webkit-box;
     display: -ms-flexbox;
-    display: inline;
     padding: 10px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -50,7 +52,8 @@ header img {
 
 .albuns a img {
     width: 30px;
-    display: flex;
+    display: inline;
+    text-decoration: none;
     margin-bottom: 20px;
     padding: 5px;
     -webkit-box-orient: horizontal;
@@ -61,25 +64,16 @@ header img {
 }
 
 footer {
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
     text-align: center;
     justify-content: center;
-    display: block;
     background: #f1eebf;
 }
 
-footer img.copyright{
-    width: 180px;
-    margin: auto;
-}
-
-img.logo2{
-    width: 115px;
-    margin: auto;
-    font-size: 30px;
+footer .img-footer, img {
+    width: 150px;
+    height: auto;
     list-style: none;
-    padding: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
 }
