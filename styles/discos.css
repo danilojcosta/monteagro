@@ -3,14 +3,16 @@
 }
 
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     display: block;
-    background-image: url(/assets/BannerBackground.jpg);
+    background: #26a3c215;
 }
 
-h1 {
-    font-family: 'Peddana', serif;
+h2 {
+    font-size: 55px;
+    color: black;
+    font-weight:200;
 }
 
 header {
@@ -31,11 +33,19 @@ header img {
 
 .albuns img {
     width: 300px;
-    display: flex;
+    font-size: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline;
+    padding: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 50px;
 }
 
 .albuns a img {
@@ -43,6 +53,11 @@ header img {
     display: flex;
     margin-bottom: 20px;
     padding: 5px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: center;
 }
 
 footer {
@@ -50,9 +65,21 @@ footer {
     text-align: center;
     justify-content: center;
     display: block;
+    background: #f1eebf;
 }
 
 footer img.copyright{
-    width: 200px;
-    padding-top: 50px;
+    width: 180px;
+    margin: auto;
+}
+
+img.logo2{
+    width: 115px;
+    margin: auto;
+    font-size: 30px;
+    list-style: none;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
 }
