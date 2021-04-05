@@ -33,6 +33,7 @@ header img {
 
 .albuns li {
     list-style: none;
+    justify-content: center;
 }
 
 .albuns img {
