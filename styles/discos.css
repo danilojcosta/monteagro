@@ -31,9 +31,16 @@ header img {
     margin-right: auto;
 }
 
+.albuns a{
+    text-decoration: none;
+}
+
 .albuns li {
     list-style: none;
     justify-content: center;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .albuns img {
