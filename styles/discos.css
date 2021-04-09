@@ -9,6 +9,13 @@ body {
     background: #26a3c215;
 }
 
+header {
+    display: flex;
+    justify-content: left;
+    font-size: 35px;
+    margin: 15px;
+}
+
 h2 {
     margin: 0;
     padding: 0;
@@ -17,37 +24,32 @@ h2 {
     font-weight: 200;
 }
 
-header {
-    display: flex;
-    justify-content: left;
-    font-size: 35px;
-    margin: 15px;
-}
-
 .albuns {
     padding: 50px 50px 50px 15px;
 }
 
-ul.genese h3 {
+.albuns h3 {
     font-family: 'Poppins', sans-serif;
     width: 10px;
-    
+    float: right;
+    padding: 0;
+    margin: 0;
 }
 
 .albuns a , li {
     text-decoration: none;
     list-style: none;
     justify-content: center;
-    display: inline;
     margin-left: auto;
     margin-right: auto;
 }
 
 .albuns img {
-    width: 300px;
-    font-size: 30px;
+    width: 250px;
     padding: 10px;
+    margin: 0px 10px 10px 0;
     justify-content: center;
+    float: left;
 }
 
 .albuns a img {
@@ -59,7 +61,7 @@ ul.genese h3 {
     justify-content: center;
 }
 
-footer {
+.footer {
     margin: 0;
     padding: 0;
     display: flex;
@@ -68,7 +70,7 @@ footer {
     background: #f1eebf;
 }
 
-footer .img-footer, img {
+.footer #copyright {
     width: 150px;
     height: auto;
     list-style: none;
