@@ -24,20 +24,25 @@ h2 {
     font-weight: 200;
 }
 
-.albuns {
+.albuns td {
     font-family: 'Poppins', sans-serif;
     width: 5px;
+    padding: 30px;
 }
 
 .albuns img {
     width: 300px;
 }
 
+.albuns a {
+    list-style: none;
+    text-decoration: none;
+}
+
 .albuns a img {
     width: 30px;
     display: inline;
-    text-decoration: none;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     padding: 5px;
     justify-content: center;
 }
@@ -53,7 +58,9 @@ h2 {
 
 }
 
-.footer img {
+.footer img , li {
     height: auto;
     width: 150px;
+    list-style: none;
+    text-decoration: none;
 }
