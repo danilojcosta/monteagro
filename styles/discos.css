@@ -41,10 +41,8 @@ h2 {
 
 .albuns a img {
     width: 30px;
-    display: inline;
-    margin-bottom: 50px;
     padding: 5px;
-    justify-content: center;
+    padding-left: 17px;
 }
 
 .footer {
@@ -53,9 +51,6 @@ h2 {
     display: flex;
     background-color: #26a3c215;
     justify-content: center;
-    list-style: none;
-    text-decoration: none;
-
 }
 
 .footer img , li {
