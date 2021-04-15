@@ -5,13 +5,12 @@
 body {
     margin: 0;
     padding: 0;
-    display: block;
+    display: flex;
     background: #26a3c215;
+    align-items: center;
 }
 
 header {
-    display: flex;
-    justify-content: left;
     font-size: 35px;
     margin: 15px;
 }
@@ -27,7 +26,7 @@ h2 {
 .albuns td {
     font-family: 'Poppins', sans-serif;
     width: 5px;
-    padding: 30px;
+    padding: 50px;
 }
 
 .albuns img {
@@ -41,6 +40,7 @@ h2 {
 
 .albuns a img {
     width: 30px;
+    height: auto;
     padding: 5px;
     padding-left: 17px;
 }
