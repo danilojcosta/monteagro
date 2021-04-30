@@ -26,7 +26,7 @@ header {
 }
 
 header img {
-    width: 130px;
+    width: 90px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
@@ -35,10 +35,6 @@ header img {
 body {
     background: #f1eebf96;
     margin: 0;
- }
- 
- nav {
-    background: #26a3c215;
  }
  
  .navigation {
@@ -55,11 +51,6 @@ body {
     flex-flow: row wrap;
     justify-content: center;
  }
- 
- .search-box {
-     margin: 15px 15px 0;
-     text-align: center;
- }
 
  .navigation a {
     text-decoration: none;
@@ -69,7 +60,7 @@ body {
  }
  
  .navigation a:hover {
-    background: #f9f9eb00;
+    background: #f9f9eb49;
     text-decoration: wavy;
  }
 
@@ -85,7 +76,7 @@ body {
     margin: 10px 0px 20px -15px;
 }
 
-article h2 h3 {
+article {
     padding: 50px;
     font-size: 20px;
     font-family: 'Peddana', serif;
@@ -94,6 +85,30 @@ article h2 h3 {
     margin-left: auto;
     margin-right: auto;
 }
+
+.albuns td {
+    font-family: 'Poppins', sans-serif;
+    width: 5px;
+    padding: 50px;
+}
+
+.albuns img {
+    width: 300px;
+    height: auto;
+}
+
+.albuns a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.albuns a img {
+    width: 30px;
+    height: auto;
+    padding: 5px;
+    padding-left: 17px;
+}
+
 
 footer {
     padding: 20px;

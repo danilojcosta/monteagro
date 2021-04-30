@@ -1,13 +1,13 @@
 *:root {
     font-family: monteagro, sans-serif;
-    font-weight: 500;
+
 }
 
 body {
     margin: 0;
     padding: 0;
     display: flex;
-    background: #f1eebf96;
+    background: #f3ec8996;
 }
 
 nav {
