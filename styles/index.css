@@ -6,11 +6,11 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    background-color: rgb(255, 252, 246);
+    background-color: rgba(241, 195, 110, 0.507);
 }
 
 h1 {
-    font-size: 55px;
+    font-size: 60px;
     color: black;
     font-weight: 200;
     padding-bottom: 40px;
@@ -20,23 +20,17 @@ h1 {
 header {
     display: grid;
     justify-content: center;
-    font-size: 35px;
     padding-top: 100px;
     margin: auto;
-    background-color: rgba(241, 184, 110, 0.76);
 }
 
-header img {
+img.logo {
     width: 90px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
 }
-
-body {
-    background: #f1eebf96;
-    margin: 0;
- }
  
  .navigation {
     font-size: 30px;
@@ -98,29 +92,28 @@ article {
     padding-left: 17px;
 }
 
-.social-media li {
+footer {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer .social-media li {
     display: inline;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
-.social-media img {
+footer .social-media img {
     width: 30px;
     height: auto;
     padding-right: 10px;
     padding-left: 0px;
 }
 
-.social-media a {
+footer .social-media a {
     text-decoration: none;
-}
-
-footer {
-    padding: 20px;
-    text-align: center;
-    justify-content: center;
-    display: flex;
 }
 
 footer img.copyright{
