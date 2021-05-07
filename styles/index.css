@@ -60,7 +60,13 @@ img.logo {
  }
 
 .albuns {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: center;
 }
 
@@ -88,27 +94,22 @@ img.logo {
 }
 
 footer {
-    margin: 0;
-    padding: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
     justify-content: center;
     background-color: #f9f9ebb6;
 }
 
-footer .social-media {
-    padding-left: 0px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-footer .social-media img {
+footer ul {
     width: 30px;
     height: auto;
     padding-right: 10px;
     padding-left: 0px;
-}
-
-footer img.copyright{
-    width: 180px;
+    text-decoration: none;
+    list-style: none;
 }
