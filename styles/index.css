@@ -6,12 +6,12 @@ body {
     margin: 0;
     padding: 0;
     display: block;
-    background-color: rgba(241, 195, 110, 0.507);
+    background-color: #fcebd5;
 }
 
 h1 {
     font-size: 60px;
-    color: black;
+    color: #301f09;
     font-weight: 200;
     padding-bottom: 40px;
     text-align: center;
@@ -51,7 +51,7 @@ img.logo {
     text-decoration: none;
     display: block;
     padding: 15px;
-    color: black;
+    color: #301f09;
  }
  
 .navigation a:hover {
@@ -71,7 +71,6 @@ img.logo {
 }
 
 .albuns td {
-    font-family: 'Poppins', sans-serif;
     width: 5px;
     padding: 50px;
 }
@@ -96,20 +95,29 @@ img.logo {
 footer {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    display: grid;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: #f9f9ebb6;
 }
 
-footer ul {
-    width: 30px;
-    height: auto;
-    padding-right: 10px;
-    padding-left: 0px;
+footer img.logo {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+footer img {
+    width: 15px;
+}
+
+footer p, footer a {
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #301f09;
+    justify-content: end;
     text-decoration: none;
-    list-style: none;
 }
