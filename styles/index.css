@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 65px;
     color: #301f09;
     font-weight: 200;
     padding-bottom: 40px;
@@ -25,18 +25,18 @@ header {
 }
 
 img.logo {
-    width: 90px;
+    width: 95px;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    padding: 50px;
+    padding: 100px;
 }
  
 .navigation {
-    font-size: 30px;
+    font-size: 33px;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -60,6 +60,7 @@ img.logo {
  }
 
 .albuns {
+    padding-top: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
