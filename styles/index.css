@@ -60,7 +60,7 @@ img.logo {
  }
 
 .albuns {
-    padding-top: 50px;
+    padding-top: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -105,12 +105,23 @@ footer {
 }
 
 footer img.logo {
-    margin-top: 100px;
+    margin-top: 30px;
     margin-bottom: 0;
 }
 
 footer img {
     width: 15px;
+}
+
+footer h5 {
+    margin-top: 100px;
+    padding-top: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 19px;
+    color: #301f09;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
 }
 
 footer p, footer a {
@@ -119,6 +130,7 @@ footer p, footer a {
     font-family: 'Poppins', sans-serif;
     font-size: 19px;
     color: #301f09;
-    justify-content: end;
+    justify-content: center;
+    text-align: center;
     text-decoration: none;
 }
